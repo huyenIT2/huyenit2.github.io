@@ -1,0 +1,51 @@
+body {
+    font-size: large;
+    background: #f6f6f6;
+}
+.tieu_de {
+    color: mediumblue;
+    background-color: rgba(240, 179, 65, 0.719);
+    font-size: x-large;
+    font-weight: 900;
+}
+.h1 {
+    color: black;
+    font-size: xx-large;
+}
+.cac_lenh {
+    color: white;
+    background-color: black;
+    font-size: large;
+}
+.hop_am {
+    color: blue;
+    background-color: chocolate;
+    text-align: center;
+    height: 70px;
+    font-size: x-large;
+}
+.vang {
+    background-color: rgb(252, 246, 192);
+    text-align: center;
+}
+.cam {
+    background-color: chocolate;
+    text-align: center;
+}
+.xanh {
+    color: rebeccapurple;
+    background-color: aqua;
+    font-size: x-large;
+}
+.hong {
+    background-color: rgb(236, 89, 168);
+    color: rgb(78, 9, 92);
+    font-size: large;
+}
+.ket {
+    color: red;
+    background-color: rgb(252, 246, 192);
+    text-align: center;
+    font-size: xx-large;
+    height: 50px;
+}
