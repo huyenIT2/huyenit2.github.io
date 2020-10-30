@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: segoe ui light;
+}
+
+:root {
+    --text-color: gray;
+}
+
+.bo {
+    display: flex;
+}
+
+.bo .left {
+    height: 100%;
+    width: 40%;
+    position: fixed;
+
+}
+
+.bo .left img {
+    width: 100%;
+    height: 100%;
+}
+
+.bo .right {
+    width: 60%;
+    padding: 20px;
+    margin-left: 40%;
+    position: relative;
+}
+
+.bo .right .icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 30px;
+    color: gray;
+    padding: 10px;
+}
+
+.bo .right .icon:hover {
+    background-color: rgb(190, 184, 184);
+    color: black;
+}
+
+.bo .right .header {
+    padding: 150px;
+    text-align: center;
+
+}
+
+.bo .right .header h1 {
+    font-size: 50px;
+    padding: 15px 0;
+}
+.bo .right .header p {
+    font-size: 16px;
+    padding: 15px 0;
+}
+.bo .right button {
+    font-size: 16px;
+    padding: 15px;
+}
+
+.bo .right .Portfolio,.About,.Skills,.Reputation,.Price,.Contact h1 {
+    color: var(--text-color);
+    padding: 20px 0;
+}
+
+.bo .right .Portfolio .anh {
+    display: flex;
+    margin-top: 20px;
+}
+
+.bo .right .Portfolio .anh .left1 {
+    width: 50%;
+    padding-right: 10px;
+}
+.bo .right .Portfolio .anh img {
+    width: 100%;
+    padding: 5px;
+}
+.bo .right .Portfolio .anh .right1 {
+    width: 50%;
+    padding-left: 10px;
+}
+
+.bo .right .About p{
+    padding-top: 5px;
+}
+
+.bo .right .Skills h3 {
+    color: var(--text-color);
+}
+
+.bo .right .Skills .bo {
+    background-color: rgb(231, 226, 226);
+    height: 25px;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.bo .right .Skills .con {
+    background-color: rgb(71, 69, 69);
+    color: white;
+    height: 25px;
+    text-align: center;  
+}
+.bo .right .Skills .con95 {
+    width: 95%;
+}
+.bo .right .Skills .con85 {
+    width: 85%;
+}
+.bo .right .Skills .con80 {
+    width: 80%;
+}
+
+.bo .right .phan4 {
+    display: flex;
+    color: white;
+    background-color: rgb(71, 69, 69);
+    margin-bottom: 30px;
+}
+
+.bo .right .phan4 .con1 {
+    width: 25%;
+    text-align: center;
+    padding: 25px 0;
+    font-size: x-large;
+}
+
+.bo .right .Reputation {
+    padding-top: 10px;
+}
+.bo .right .Reputation .me {
+    display: flex;
+    padding: 15px 0;
+}
+.bo .right .Reputation .me .left2 {
+    width: 10%;
+}
+.bo .right .Reputation .me .left2 img{
+    width: 100%;
+    border-radius: 100%;
+}
+
+.bo .right .Reputation .me .right2 {
+    color: var(--text-color);
+    margin-left: 10px;
+}
+
+.bo .right .Reputation .me .right2 b {
+    color: black;
+}
+.bo .right .Reputation .me .right2 p {
+    padding: 15px 0;
+}
+
+.bo .right .Contact1 {
+    padding: 10px 0;
+    font-size: 20px;
+    color: var(--text-color);
+}
+
+.bo .right .Contact1 i {
+    font-size: 35px;
+}
+
+.bo .right .anhket {
+    padding: 30px 0;
+    height: 500px;
+    width: 100%;
+    
+}
+
+.bo .right .phan6 {
+    padding: 20px 0;
+}
+
+.bo .right .ket {
+    margin-top: 50px;
+    background-color: rgb(238, 232, 232);
+    padding: 100px;
+    text-align: center;
+    font-size: 25px;
+    transition: 0.5s;
+  
+}
+
+.bo .right .ket .link1 {
+    text-decoration: none;
+    color: black;
+}
+
+.bo .right .ket i:hover {
+    color: grey;
+    padding-top: 3px;
+    padding-bottom: 9px;
+}
+
+
